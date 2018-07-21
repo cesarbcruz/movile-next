@@ -1,0 +1,6 @@
+info:
+      version: @project.version@
+
+movile:
+        next:
+              tipo-interface-repository: 1

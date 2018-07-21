@@ -41,4 +41,9 @@ public class Employee {
 	public boolean bornOn(int day, int month) {
 		return this.dayOfBirth == day && this.monthOfBirth == month;
 	}
+
+	@Override
+	public String toString() {
+		return this.getNome()+", "+this.getEmail()+", "+this.getDayOfBirth()+", "+this.getMonthOfBirth();
+	}
 }

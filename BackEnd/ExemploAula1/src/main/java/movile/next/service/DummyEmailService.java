@@ -6,7 +6,7 @@ public class DummyEmailService implements EmailService {
 
 	@Override
 	public void send(Employee employee) {
-		System.out.print("Email Enviado: "+employee.getNome());
+		System.out.println("Email Enviado: "+employee.toString());
 	}
 
 }
